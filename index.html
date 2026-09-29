@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heuvel Hotel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#" class="logo">Heuvel <span>Hotel</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#about">Lorem</a>
+        <a href="#rooms">Ipsum</a>
+        <a href="#book">Dolor</a>
+        <a href="#book" class="btn btn-light">Lorem ipsum</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img class="hero-bg"
+         src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=80"
+         alt="Sunlit hotel lounge with leather sofa and plants">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-title">
+        <p class="eyebrow eyebrow-light">Lorem ipsum dolor</p>
+        <h1><span>Lorem ipsum</span><br><em>dolor</em> sit amet</h1>
+      </div>
+      <div class="hero-side">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+        <a href="#about" class="btn btn-outline-light">Consectetur <span class="arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro / About -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">
+          <span class="num">N<sup>o</sup> 01</span>
+          <span class="rule"></span>
+          <span class="eyebrow">Lorem ipsum</span>
+        </div>
+        <h2>Lorem ipsum<br>dolor sit amet,<br><em>consectetur</em> adipiscing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <a href="#rooms" class="link-arrow">Lorem ipsum <span class="arrow">&rarr;</span></a>
+      </div>
+
+      <figure class="about-figure reveal">
+        <div class="img-frame">
+          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80"
+               alt="Bedroom with upholstered bed and city view">
+        </div>
+        <figcaption>
+          <span>Lorem ipsum dolor</span>
+          <em>Sit amet</em>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section class="section rooms" id="rooms">
+    <div class="container">
+      <div class="rooms-head reveal">
+        <div>
+          <div class="section-label">
+            <span class="num">N<sup>o</sup> 02</span>
+            <span class="rule"></span>
+            <span class="eyebrow">Dolor sit</span>
+          </div>
+          <h2>Lorem ipsum <em>dolor</em> sit</h2>
+        </div>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="img-frame">
+            <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"
+                 alt="Bright hotel room with large window">
+          </div>
+          <div class="card-head">
+            <h3>Lorem ipsum</h3>
+            <span class="roman">i.</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <a href="#book" class="link-arrow">Lorem ipsum <span class="arrow">&rarr;</span></a>
+        </article>
+
+        <article class="card reveal">
+          <div class="img-frame">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+                 alt="Warmly lit hotel suite">
+          </div>
+          <div class="card-head">
+            <h3>Dolor sit</h3>
+            <span class="roman">ii.</span>
+          </div>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+          <a href="#book" class="link-arrow">Lorem ipsum <span class="arrow">&rarr;</span></a>
+        </article>
+
+        <article class="card reveal">
+          <div class="img-frame">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=80"
+                 alt="Resort pool with lounge chairs">
+          </div>
+          <div class="card-head">
+            <h3>Amet consectetur</h3>
+            <span class="roman">iii.</span>
+          </div>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          <a href="#book" class="link-arrow">Lorem ipsum <span class="arrow">&rarr;</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta" id="book">
+    <div class="container cta-inner reveal">
+      <span class="num">N<sup>o</sup> 03</span>
+      <h2>Lorem ipsum<br><em>dolor</em> sit amet</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+      <a href="#" class="btn btn-dark">Lorem ipsum <span class="arrow">&rarr;</span></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#" class="logo logo-lg">Heuvel <span>Hotel</span></a>
+        <nav class="footer-nav">
+          <a href="#about">Lorem</a>
+          <a href="#rooms">Ipsum</a>
+          <a href="#book">Dolor</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>Fictional hotel — design test only. All content and imagery are placeholders.</p>
+        <p>&copy; <span id="year"></span> Heuvel Hotel</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
